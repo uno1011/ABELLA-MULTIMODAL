@@ -276,7 +276,7 @@ html, body {
 .info{
   font-family:"montserrat";
   position: absolute;
-  top: 13%;     /* move down from top */
+  top: 11%;     /* move down from top */
   left: 50%;    /* move right from left */
   transform: translate(-50%, -50%); /* centers text perfectly */
   z-index: 100;
@@ -448,6 +448,7 @@ body {
 main {
   min-height: calc(100vh - 80px); /* 80 = header + footer height */
 }
+
 
 
 
