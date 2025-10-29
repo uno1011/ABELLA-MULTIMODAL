@@ -171,7 +171,7 @@ body {
 .sol {
   font-family: "Poppins", "Arial";
   position: absolute;
-  top: 215%;
+  top: 220%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -448,5 +448,6 @@ body {
 main {
   min-height: calc(100vh - 80px); /* 80 = header + footer height */
 }
+
 
 
