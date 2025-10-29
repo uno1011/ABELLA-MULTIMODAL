@@ -384,7 +384,7 @@ html, body {
 .solinfo {
   font-family: "montserrat", "Arial";
   position: absolute;
-  top: 235%;
+  top: 233%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -448,6 +448,7 @@ body {
 main {
   min-height: calc(100vh - 80px); /* 80 = header + footer height */
 }
+
 
 
 
