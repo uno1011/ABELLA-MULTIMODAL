@@ -415,7 +415,7 @@ body {
   width: 100%;
   position: relative;
   bottom: 0;
-  height: 250px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end; /* pushes content down */
@@ -485,6 +485,7 @@ main {
 .popup-content button:hover {
   background: #5c1d8f;
 }
+
 
 
 
