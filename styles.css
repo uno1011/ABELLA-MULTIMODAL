@@ -488,6 +488,97 @@ main {
 
 
 
+/* ---------- MOBILE FIXES ---------- */
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .tophead {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .topnav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .slgn, .slgn2 {
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  .slgn span, .slgn2 span {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  .norm {
+    font-size: 0.9rem;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .wow, .box1, .box2, .box3 {
+    width: 100%;
+    margin: 0;
+    padding: 20px 10px;
+  }
+
+  .split {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .split.reverse {
+    flex-direction: column;
+  }
+
+  .split-img, .box3-img {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .split-text {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .data {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .item {
+    text-align: center;
+  }
+
+  .footer {
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .quote {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+
+  .socials {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+
 
 
 
